@@ -1,0 +1,25 @@
+<HTML>
+<HEAD>
+<TITLE>Hello HTA</TITLE>
+<HTA:APPLICATION
+    APPLICATIONNAME="Hello HTA"
+    WINDOWSTATE="minimized"
+    INNERBORDER="no"
+    SCROLL="no"
+    SYSMENU="no"
+    CAPTION="no"
+    SHOWINTASKBAR="no"
+/>
+</HEAD>
+<BODY>
+
+<SCRIPT LANGUAGE="VBScript">
+    ' Display a message box with "Hello!"
+    MsgBox "Hello!"
+
+    ' This line will automatically close the HTA after the message box is dismissed.
+    window.close
+</SCRIPT>
+
+</BODY>
+</HTML>
